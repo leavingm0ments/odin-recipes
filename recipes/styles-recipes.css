@@ -1,3 +1,4 @@
+/* Lowered pading so it's only clickable on the text, not the whole box */
 .home-button, .home-button:visited {
     font-size: clamp(1.2rem, 2vw, 2rem);
     text-align: center;
@@ -10,6 +11,11 @@
     justify-content: center;
     align-items: center;
     text-transform: uppercase;
+    background-color: #32937e;
+    border-radius: 100px;
+    width: min(0%, 800px);
+    max-width: 1000px;
+    margin: 20px auto;
 }
 
 .home-button:hover {
