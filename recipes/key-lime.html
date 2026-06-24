@@ -13,15 +13,33 @@
 
     <h1 class="recipe-name">Key Lime Pie</h1>
     <p class="blurb">A refreshing tropical dessert!</p>
-    <img src="../images/key-lime.jpg" alt="Key Lime Pie" height="200" width="200">
+    <img class="recipe-image" src="../images/key-lime.jpg" alt="Key Lime Pie" height="200" width="200">
     <h3>Ingredients:</h3>
     <ul>
-        <li>1 cup graham cracker crumbs</li>
-        <li>1/2 cup melted butter</li>
-        <li>1 can sweetened condensed milk</li>
-        <li>3 large egg yolks</li>
-        <li>1/2 cup fresh key lime juice</li>
-        <li>1 tablespoon cornstarch</li>
+        <li>
+            <input type="checkbox" id="item1">
+            <label for="item1">1 cup graham cracker crumbs</label>
+        </li>
+        <li>
+            <input type="checkbox" id="item2">
+            <label for="item2">1/2 cup melted butter</label>
+        </li>
+        <li>
+            <input type="checkbox" id="item3">
+            <label for="item3">1 can sweetened condensed milk</label>
+        </li>
+        <li>
+            <input type="checkbox" id="item4">
+            <label for="item4">3 large egg yolks</label>
+        </li>
+        <li>
+            <input type="checkbox" id="item5">
+            <label for="item5">1/2 cup fresh key lime juice</label>
+        </li>
+        <li>
+            <input type="checkbox" id="item6">
+            <label for="item6">1 tablespoon cornstarch</label>
+        </li>
     </ul>
     <h3>Steps:</h3>
     <ol>
@@ -35,7 +53,24 @@
         <li>Bake for 15 minutes or until set.</li>
     </ol>
     </div>
+
+    <div style="text-align: center; margin-bottom: 15px;">
+    <h3 style="display: inline-block; margin: 0; color: #333;">Other Recipes</h3>
+  </div>
+
+  <!-- Row of Inline-Block Navigation Links -->
+  <div style="display: flex; justify-content: center; gap: 15px; flex-wrap: wrap;">
     
+    <a href="grilled-cheese.html" style="display: inline-block; padding: 10px 15px; background-color: #f4f4f4; border: 1px solid #ddd; border-radius: 4px; text-decoration: none; color: #007BFF;">
+      Grilled Cheese Sandwich →
+    </a>
+
+    <a href="matcha.html" style="display: inline-block; padding: 10px 15px; background-color: #f4f4f4; border: 1px solid #ddd; border-radius: 4px; text-decoration: none; color: #007BFF;">
+      Matcha Latte →
+    </a>
+
+  </div>
+
 <footer class="site-footer">
   <div class="footer-container">
     <!-- Column 1: About -->
