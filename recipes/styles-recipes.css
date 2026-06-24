@@ -1,0 +1,132 @@
+.home-button, .home-button:visited {
+    font-size: clamp(1.2rem, 2vw, 2rem);
+    text-align: center;
+    color: #000000;
+    font-family: 'Segoe UI', sans-serif;
+    text-decoration: none;
+    text-decoration-color: #040300;
+    text-decoration-thickness: 2px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-transform: uppercase;
+}
+
+.home-button:hover {
+    color: #32937e;
+    text-decoration-thickness: 3px;
+}
+
+.recipe-name {
+    color: #32937e;
+    text-decoration: none;
+    text-decoration-thickness: 2px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+body {
+    background-color: #ededed;
+    margin: 0;
+    padding: 0;
+    font-family: 'Segoe UI', sans-serif;
+}
+
+.recipe-image {
+    border: 8px solid #ededed;       /* The inner matting */
+    box-shadow: 
+    0 0 0 1px #e0e0e0,            /* Subtle outer frame line */
+    0 10px 20px rgba(0,0,0,0.1);  /* Smooth, realistic drop shadow */
+    border-radius: 4px;             /* Softens sharp corners */
+    max-width: 100%;
+    height: auto;
+}
+
+.blurb {
+    font-size: clamp(1rem, 1.5vw, 1.5rem);
+    text-align: center;
+    color: #000000;
+    font-family: 'Segoe UI', sans-serif;
+    text-decoration: none;
+    text-decoration-color: #040300;
+    text-decoration-thickness: 2px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: -15px;
+    font-style: italic;
+}
+
+.recipe-container {
+    box-sizing: border-box;    /* Prevents padding from increasing box width */
+    width: 0 auto;
+    background-color: #ffffff;
+    border: 2px solid #e0e0e0; /* Grey outer border */
+    padding: 24px;             /* Space between text and the border */
+    margin: 20px;              /* Space outside the border to push away other elements */
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.05); /* Subtle shadow depth */
+    display: flex;
+    justify-content: center;  /* Center children horizontally */
+    flex-direction: column;    /* Stack children vertically */
+    align-items: center;        /* Center children horizontally */
+    border-radius: 8px;             /* Rounded corners for a softer look */
+    box-align: center;          /* Aligns the box itself in the center of its container */
+}
+
+.site-footer {
+  background-color: #1a1a1a;
+  color: #ffffff;
+  padding: 40px 20px 20px 20px;
+  font-family: sans-serif;
+}
+
+.footer-container {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap; /* Makes it wrap on mobile devices */
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.footer-column {
+  flex: 1;
+  min-width: 250px; /* Forces wrapping if screen gets too small */
+  margin-bottom: 20px;
+}
+
+.footer-column h3 {
+  color: #32937e;
+  margin-bottom: 15px;
+}
+
+.footer-column ul {
+  list-style: none; /* Removes list dots */
+  padding: 0;
+  margin: 0;
+}
+
+.footer-column ul li {
+  margin-bottom: 8px;
+}
+
+.footer-column a {
+  color: #cccccc;
+  text-decoration: none;
+}
+
+.footer-column a:hover {
+  color: #ffffff;
+}
+
+.footer-bottom {
+  text-align: center;
+  border-top: 1px solid #333333;
+  margin-top: 30px;
+  padding-top: 20px;
+  font-size: 0.9rem;
+  color: #888888;
+}
+
+
+
