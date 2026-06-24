@@ -1,1 +1,3 @@
 My goal is to make a simple recipe website that I can hopefully use to remember html and potientally add upon this later.
+
+Prototype: https://leavingm0ments.github.io/odin-recipes/  
